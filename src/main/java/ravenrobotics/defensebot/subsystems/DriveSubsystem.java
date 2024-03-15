@@ -50,7 +50,7 @@ public class DriveSubsystem extends SubsystemBase {
         //Set the left side motors to be inverted, and the right side to not be inverted.
         frontLeft.setInverted(true);
         frontRight.setInverted(false);
-        backLeft.setInverted(true);
+        backLeft.setInverted(false);
         backRight.setInverted(false);
 
         //Add the back motors as "followers" to their respective front motors (when a input is given to the front, the back will also recieve that input).

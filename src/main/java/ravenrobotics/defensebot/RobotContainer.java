@@ -16,8 +16,8 @@ public class RobotContainer {
   
   //The drive command so we can pass the controller inputs and drive the robot.
   private final Command driveCommand = new DriveCommand(
-    () -> -driveController.getLeftY(),
-    () -> -driveController.getRightX());
+    () -> driveController.getLeftY(),
+    () -> driveController.getRightX());
 
   public RobotContainer() {
     //Get the active instance of DriveSubsystem, and set the default command to the driveCommand object so that we can always drive when enabled.

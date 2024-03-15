@@ -6,8 +6,8 @@ public class Constants {
         public static final int kDriverController = 0;
 
         //The slew rates for the inputs.
-        public static final double kXSlewRate = 1.0;
-        public static final double kZSlewRate = 1.0;
+        public static final double kXSlewRate = 1.5;
+        public static final double kZSlewRate = 2.0;
     }
 
     public static class DriveConstants {
